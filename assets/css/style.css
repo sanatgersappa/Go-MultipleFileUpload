@@ -1,0 +1,9 @@
+body {
+        font-family: Sans-serif;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-color: #ffffff;
+}
+h1 {text-align: center; margin-bottom: 30px;}
+.message {font-weight:bold}
+fieldset {width:50%}
