@@ -1,12 +1,7 @@
-<<<<<<< HEAD
 package main
 
 import (
-<<<<<<< HEAD
 	"html/template"
-=======
-  "html/template"
->>>>>>> 52bdea6620bec1521619973382ac92109e7bad35
 	"io"
 	"net/http"
 	"os"
@@ -15,11 +10,7 @@ import (
 //Compile templates on start
 var templates = template.Must(template.ParseFiles("tmpl/upload.html"))
 
-<<<<<<< HEAD
 //Display the named template
-=======
-//Displays the named template
->>>>>>> 52bdea6620bec1521619973382ac92109e7bad35
 func display(w http.ResponseWriter, tmpl string, data interface{}) {
 	templates.ExecuteTemplate(w, tmpl+".html", data)
 }
@@ -83,6 +74,3 @@ func main() {
 	//Listen on port 8080
 	http.ListenAndServe(":8080", nil)
 }
-=======
- 
->>>>>>> da8c9f2f0a005ca3430effaeaa12d8e6f50dc087
